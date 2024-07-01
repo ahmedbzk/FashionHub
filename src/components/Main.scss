@@ -1,0 +1,134 @@
+
+.main {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+
+}
+
+.spanCss{
+color: #0D3356;
+font-weight: 500;
+}
+
+.background-image{
+background-color: #F7F5F7;
+padding: 30px;
+border-radius: 20px 20px 0px 0px !important;
+}
+
+.cardCss{
+border-color: #F7F5F7 !important;
+border-radius: 20px !important; 
+}
+
+.buttonAddCard{
+border-radius: 50px !important;
+background-color: #3A4980 !important;
+border: none !important;
+font-weight: 600 !important;
+}
+
+.buttonAddShortlist{
+border-radius: 50px !important;
+color: #344054 !important;
+background-color: white !important;
+font-weight: 600 !important;
+border: 0.5px solid gray !important;
+
+}
+
+.spaceBetween{
+display: flex;
+  justify-content: space-between;
+}
+
+.form_select{
+width: auto !important; 
+padding: 0.5rem 1rem !important; 
+border-radius: 20px !important; 
+border: 0.5px solid gray !important;
+color: #1D364D !important;
+font-weight: 500 !important;
+padding-right: 2rem !important; 
+
+}
+
+.favouriIcon{
+  color:#667085;
+  font-size: x-large;
+}
+
+.favouriIconAlign{
+  position: absolute;
+  top: 5px; 
+  right: 5px; 
+  background-color: white;
+}
+
+.buttonClear{
+  background-color:white !important;
+  color:#726C6C !important;
+  border-radius:50px !important;
+  padding-inline:30px !important;
+  font-weight: 400 !important;
+  border: 0.5px solid gray !important;
+
+}
+
+.categoryText{
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 30px !important;
+  color: #1A064F;
+}
+
+.categoryCountText{
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 30px !important;
+  color: #4F547B !important;
+  margin-left: auto !important;
+}
+
+
+
+.accordion-button:not(.collapsed){
+  background-color: white !important;
+}
+
+.accordion-item {
+  border-left: 1px solid #ddd; 
+  border-right: 1px solid #ddd; 
+}
+.accordion-item:first-child {
+  border-bottom: 0.5px solid #F3F3F3;
+  border-bottom-width: 50%; 
+}
+.accordion-item:last-child {
+  border-top: 0.5px solid #F3F3F3;
+}
+
+.form-check-input[type=checkbox]{
+  border:1px solid #6A7A99  !important;
+  background-color:white !important;
+  cursor:pointer !important;
+}
+.form-check-input[type=checkbox]:checked {
+  background-color: #1A064F !important;
+}
+
+.form-check-input[type=radio]{
+  border:1px solid #6A7A99  !important;
+  background-color:white !important;
+  cursor:pointer !important;
+}
+.form-check-input[type=radio]:checked {
+  background-color: #1A064F !important;
+}
+
+.star{
+  font-size: small !important;
+  color: #E59819 !important;
+  margin-right: 5px  !important;
+}

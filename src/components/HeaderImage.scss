@@ -1,0 +1,32 @@
+.imageContainer {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(244, 232, 243, 1), rgba(243, 239, 246, 1), rgba(238, 224, 249, 1));
+    
+}
+
+.text {
+    font-size: 34px;
+    color: #3A4980;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+
+.margin-bottom-top{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.imageCol {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.imageCol img {
+    max-width: 100%; 
+}
+
+.rowCss{
+    display:'flex' !important;
+    justify-content:'space-between' !important;
+}

@@ -1,0 +1,81 @@
+
+.navbar .navbar-brand-italic {
+  font-style: italic;
+  font-weight: bold;
+  color: #0d3356;
+  font-size: xx-large;
+  margin-left: 50px;
+}
+
+.navbar .navbar-brand-items{
+  color: #0d3356;
+  font-size: medium;
+  margin-left: 30px;
+}
+
+.navbar .navbar-text-right {
+  margin-left: auto; 
+  display: flex;
+  margin-right: -50px;
+
+}
+
+.badge {
+  width: 50px; // Çerçeve genişliği
+  height: 50px; // Çerçeve yüksekliği
+  border-radius: 50%; // Tam bir daire yapmak için
+  margin-left: 10px;
+  align-content: center;
+  position: 'relative'
+}
+
+.icon-container{
+  font-weight: bold;
+}
+.iconHandBag{
+  color:#875541;
+  font-size: large;
+}
+
+.iconNotification{
+  font-size: large;
+  color:rgba(16, 31, 55, 1);
+}
+
+.handBagCount{
+  position: absolute;
+    top: 10px;
+    margin-left: 25px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(29, 54, 77, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bellCount{
+  position: absolute;
+    top: 10px;
+    margin-left: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(215, 89, 81, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.images{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}

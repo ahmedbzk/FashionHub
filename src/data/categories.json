@@ -1,0 +1,12 @@
+[
+    { "id": 1, "name": "Kid" },
+    { "id": 2, "name": "Woman" },
+    { "id": 3, "name": "Man" },
+    { "id": 4, "name": "Casual" },
+    { "id": 5, "name": "Sports" },
+    { "id": 6, "name": "Formal" },
+    { "id": 7, "name": "Outdoor" },
+    { "id": 8, "name": "Accessories" },
+    { "id": 9, "name": "Footwear" },
+    { "id": 10, "name": "Swimwear" }
+  ]

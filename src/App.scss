@@ -1,0 +1,39 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.boldText{
+  font-size:20px !important;
+  font-weight:700  !important;
+  color:#344054  !important;
+}
+
+.normalText{
+  font-size:16px  !important;
+  font-weight:500   !important;
+  color:#667085  !important;
+}
+
+
+.colCenterLeft{
+  display:flex !important;
+  align-items:center !important;
+}
+
+.colRight{
+  display:flex !important;
+  justify-content: right !important;
+}
+
+.margin30down{
+  margin-bottom: 30px;
+}
