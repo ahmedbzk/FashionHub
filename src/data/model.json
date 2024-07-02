@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Tied" },
+    { "id": 2, "name": "Untied" },
+    { "id": 3, "name": "Curved" },
+    { "id": 4, "name": "Uncurved" },
+    { "id": 5, "name": "Heels" },
+    { "id": 6, "name": "UnHeels" }
+  ]

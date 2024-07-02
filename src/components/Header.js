@@ -40,30 +40,30 @@ const Header = () => {
             </Badge>
 
             {/* ACCOUNT */}
-            <Row>
-            <Col xs={4} md={4} style={{width:'auto'}}>
-              <Row>
-                <Badge bg="" style={{marginLeft: '15px', marginTop: '-3px'}}>
-                  <div style={{ width: '48px', height: '48px', borderRadius: '50%', overflow: 'hidden' }}>
-                    <Image src="/images/Scarlet.png" roundedCircle className='images'/>
-                  </div>
-                </Badge>
-              </Row>
-            </Col>
-            <Col xs={8} md={8}>
-              <Row>
-                <Col xs={12} md={12} style={{width:'auto'}}>
-                  <span style={{fontSize:'small'}}>
-                    Good Morning!
-                  </span>
-                </Col>
-                <Col xs={12} md={12} style={{width:'auto'}}>
-                  <span style={{fontWeight:'bold',color:'#0d3356', fontSize:'medium'}}>
-                    Scarlet Johnson
-                  </span>
-                </Col>
-              </Row>
-            </Col>
+            <Row style={{marginRight:'0px'}}>
+              <Col xs={4} md={4} style={{width:'auto'}}>
+                <Row>
+                  <Badge bg="" style={{marginLeft: '15px', marginTop: '-3px'}}>
+                    <div style={{ width: '48px', height: '48px', borderRadius: '50%', overflow: 'hidden' }}>
+                      <Image src="/images/Scarlet.png" roundedCircle className='images'/>
+                    </div>
+                  </Badge>
+                </Row>
+              </Col>
+              <Col xs={8} md={8}>
+                <Row>
+                  <Col xs={12} md={12} style={{width:'auto'}}>
+                    <span style={{fontSize:'small'}}>
+                      Good Morning!
+                    </span>
+                  </Col>
+                  <Col xs={12} md={12} style={{width:'auto'}}>
+                    <span style={{fontWeight:'bold',color:'#0d3356', fontSize:'medium'}}>
+                      Scarlet Johnson
+                    </span>
+                  </Col>
+                </Row>
+              </Col>
             </Row>
 
 
